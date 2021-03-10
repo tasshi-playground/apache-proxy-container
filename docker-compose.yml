@@ -5,4 +5,4 @@ services:
     ports:
       - "3128:80"
     volumes:
-      - ./my-httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./my-httpd.conf:/usr/local/apache2/conf/httpd.conf:ro
