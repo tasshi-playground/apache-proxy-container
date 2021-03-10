@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  proxy:
+    image: httpd
+    ports:
+      - "3128:80"
+    volumes:
+      - ./my-httpd.conf:/usr/local/apache2/conf/httpd.conf
